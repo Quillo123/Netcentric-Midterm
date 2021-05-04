@@ -1,0 +1,19 @@
+@font-face {
+    font-family: BaksoSapi;
+    src: url("../fonts/BaksoSapi.otf") format("opentype");
+}
+body{
+    background-color: #9C3121;
+}
+h1{
+    background-color: #DB452D;
+    text-align: center;
+
+    margin-top: 10%;
+    font-family: BaksoSapi;
+    font-size: 70px;
+
+}
+nav{
+    background-color: #C23D29;
+}
