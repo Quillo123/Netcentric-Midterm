@@ -6,8 +6,10 @@
     <title>Reservations</title>
     <link rel = "icon" href ="../images/pizza (1).png" type = "image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/default.css">
+    <link rel="stylesheet" href="../stylesheets/reservationsPage.css">
 </head>
-<body>
+<body class="background" style="background-image: url('../images/Restaurant-Interior.jpg');">
 <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#"><img src="../images/pizza.png" alt="Philips" width="50" height="50"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +38,48 @@
     </div>
 
 </nav>
+
+<div class="container-fluid resName">
+    <h1>Philip's New York Pizza</h1>
+</div>
+
+<div class="container-fluid rounded heading">
+    <h2>Come Join us today!!!</h2>
+</div>
+
+<div class="container-fluid rounded reserveForm">
+    <h3>Reserve your table:</h3>
+
+    <form>
+        <label for="resName">Full Name</label>
+        <input type="text" alt="Full Name" id="resName" name="resName">
+
+        <label for="resEmail">Email</label>
+        <input type="email" value="philip@pizza.com" id="resEmail" name="resEmail">
+        <br>
+
+        <label for="resDate" >Date</label>
+        <input type="date" value="" id="resDate" name="resDate">
+
+        <label for="resTime">Time</label>
+        <input type="time" value="" id="resTime" name="resTime">
+
+    </form>
+</div>
+
+<div class="container-fluid rounded contacts">
+    <h3>Need help?</h3>
+    <table>
+        <tr>
+            <td>Phone:</td>
+            <td>425-###-####</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>reservations@philipspizza.com</td>
+        </tr>
+    </table>
+</div>
 
 
 

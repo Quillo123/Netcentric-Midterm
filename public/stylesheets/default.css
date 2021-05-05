@@ -1,0 +1,42 @@
+@font-face {
+    font-family: BaksoSapi;
+    src: url("../fonts/BaksoSapi.otf") format("opentype");
+}
+body{
+    background-color: #9C3121;
+    height: 100%;
+}
+.background{
+    background-image: url("../images/Background-Image.jpg");
+
+    height: 100%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.resName{
+    background-color: #5C1D13;
+    padding: 1%;
+}
+.resName h1{
+    background-color: #DB452D;
+    width: fit-content;
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+    text-align: center;
+    font-family: BaksoSapi;
+    font-size: 140px;
+
+}
+nav{
+    background-color: #C23D29;
+    font-size: 25px;
+}
+nav li{
+    border-right: solid 1px darkred;
+}

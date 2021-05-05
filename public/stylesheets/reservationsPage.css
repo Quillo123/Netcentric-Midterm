@@ -1,0 +1,50 @@
+.heading{
+    background-color: #DB452D;
+    max-width: 80%;
+    margin-top: 2%;
+    padding: 1%;
+}
+.heading h2{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+
+.reserveForm{
+    background-color: #C23D29;
+    max-width: 70%;
+    margin-top: 2%;
+    padding: 1%;
+}
+.reserveForm h3{
+    font-size: 40px;
+    color: black;
+}
+.reserveForm form{
+    color: black;
+    background-color: #DB452D;
+    font-size: 28px;
+    padding: 1%;
+}
+.reserveForm label{
+    margin-bottom: 1%;
+    font-size: 32px;
+}
+
+.contacts{
+    color: black;
+    font-size: 25px;
+    background-color: #C23D29;
+    max-width: 70%;
+    margin-top: 2%;
+    padding: 1%;
+}
+.contacts h3{
+    font-size: 30px;
+}
+.contacts table{
+    margin-left: 10px;
+}
+.contacts td{
+    padding-left: 1%;
+}
